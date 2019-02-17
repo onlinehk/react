@@ -24,12 +24,12 @@ class Count extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  value: state.count.value,
+    value: state.count.value,
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  incrementAction: (num) => dispatch(incrementAction(num)),
-  decreaseAction: () => dispatch(decreaseAction()),
+    incrementAction: (num) => dispatch(incrementAction(num)),
+    decreaseAction: () => dispatch(decreaseAction()),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Count);

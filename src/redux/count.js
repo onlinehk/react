@@ -7,7 +7,7 @@ export function incrementAction(num) {
     return {
         type: INCREMENT, payload: { num: num }
     };
-  }
+}
 export function decreaseAction() {
     return {
         type: DECREASE
@@ -17,7 +17,7 @@ export function decreaseAction() {
 
 // Reducer
 const initialState = {
-  value: 10,
+    value: 10,
 };
 
 function addReducer(state = initialState, action) {
