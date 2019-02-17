@@ -1,0 +1,16 @@
+nav {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    a {
+        color: white;
+        font-weight: bold;
+        padding: 0 15px;
+        &:hover {
+            color: lightgreen;
+        }
+    }
+    .is-active {
+        color: yellow;
+    }
+}
