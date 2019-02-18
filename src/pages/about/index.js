@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         let arrLists = ['打文章','寫程式','耍廢'];
-        let lists = arrLists.map((list) => {
+        let lists = arrLists.map((list, id) => {
             return (
-                <li key={list}>{list}</li>
+                <li key={id}>{list}</li>
             );
         });
 
